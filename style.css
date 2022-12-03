@@ -25,14 +25,18 @@ body
     background: #fff;
     margin: 50px ;
     display: grid;
-    grid-template-columns:1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    grid-template-columns:1.2fr 2fr;
+    box-shadow:0 35px 55px rgba(29, 21, 21, 0.706);
 }
 .container .left 
 {
     position: relative;
     background: #003147;
     padding: 40px;
+    margin: 0px;
+
+    background: #003147;
+                
 }
 
 .profiletext
@@ -83,7 +87,7 @@ body
 
 .contactinfo 
 {
-    padding-top:40px;
+    padding-top:20px;
 
 }
 
@@ -93,7 +97,15 @@ body
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+}
+h2.title
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 40px;
 }
 
 .contactinfo ul
@@ -153,13 +165,13 @@ body
 .contactinfo.education h4:nth-child(2)
 {
     color:#fff;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .contactinfo.education h4
 {
     color:#fff;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .contactinfo.language .percent
@@ -186,14 +198,13 @@ body
 {
     position: relative;
     background: #fff;
-    padding: 40px;
-
+    padding: 20px 40px;
 }
 
 .about 
 {
-    margin-bottom: 50px;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .about:last-child
@@ -208,6 +219,13 @@ body
     letter-spacing:1px ;
     margin-bottom: 10px;
 }
+.skills-title
+{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing:1px ;
+    margin-bottom: 10px;
+}
 p
 {
     color:#333 ;
@@ -218,7 +236,7 @@ p
     display: flex;
     flex-direction: row;
     margin-bottom: 5px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .about .box .year
@@ -273,17 +291,18 @@ p
 }
 .interest
 {
-    margin-top: 6pc;
+    margin-top: 30px;
+
 }
 .interest ul
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 2fr ;
 }
 .interest ul li
 {
     list-style: none;
-    color:#333;
+    color:rgb(209, 197, 197);
     font-weight: 500;
     margin:10px 0 ;
 }
@@ -291,8 +310,32 @@ p
 {
     color: #03a9f4;
     font-size: 18px;
-    width: 20px;
+    width: 60px;
+    padding: 8px;
+   
 }
+.project-div {
+    padding: 8px 5px;
+}
+
+.project-div h3 a{
+    color:#2a62a2;
+}
+
+.project-div h3 a:hover{
+    color:#03a9f4;
+}
+
+li.project-description {
+    color:#222022eb;
+}
+
+.project-div span {
+    color: rgba(70, 88, 189, 0.618);
+    font-size: 15px;
+    padding-top: 3px;
+}
+
 /*
 @media (max-width:1000px)
 {
